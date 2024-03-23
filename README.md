@@ -26,10 +26,10 @@ In this iteration of the project, we are focusing on exploring the relationship 
     - Alternative algorithms and feature engineering approaches may be explored to improve predictive accuracy.
   
 3. **classification.ipynb:**
-    -This notebook explores the classification aspect of the project.
-    -We aim to classify houses based on their price range or other categorical labels.
-    -Initial data preprocessing, feature selection, and model training steps are conducted.
-    -Evaluation metrics for classification models will be computed to assess performance.
+    - This notebook explores the classification aspect of the project.
+    - We aim to classify houses based on their price range or other categorical labels.
+    - Initial data preprocessing, feature selection, and model training steps are conducted.
+    - Evaluation metrics for classification models will be computed to assess performance.
 
 
 **Next Steps:**
