@@ -24,6 +24,12 @@ In this iteration of the project, we are focusing on exploring the relationship 
     - Linear regression and potentially other modeling techniques are applied to predict house prices based on the selected features, including the distance from the iconic landmark.
     - Evaluation metrics such as RMSE, MAE, and R-squared score are computed to assess the model's performance.
     - Alternative algorithms and feature engineering approaches may be explored to improve predictive accuracy.
+  
+3. **classification.ipynb:**
+   -This notebook explores the classification aspect of the project.
+   -We aim to classify houses based on their price range or other categorical labels.
+    -Initial data preprocessing, feature selection, and model training steps are conducted.
+    -Evaluation metrics for classification models will be computed to assess performance.
 
 
 **Next Steps:**
