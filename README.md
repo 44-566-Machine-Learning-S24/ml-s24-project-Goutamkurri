@@ -30,6 +30,11 @@ In this iteration of the project, we are focusing on exploring the relationship 
     - We aim to classify houses based on their price range or other categorical labels.
     - Initial data preprocessing, feature selection, and model training steps are conducted.
     - Evaluation metrics for classification models will be computed to assess performance.
+    - Clustering techniques are applied to identify distinct groups of houses based on their features and proximity to the iconic landmark.
+    - KMeans clustering is utilized to segment the dataset into clusters, and the clusters are visualized to interpret the groupings.
+    - Insights from the clustering analysis can inform targeted marketing strategies and provide a deeper understanding of housing market dynamics.
+    - Advanced regression and classifier tools like Random Forest and Neural Networks are employed to predict and classify housing prices and features.
+
 
 
 **Next Steps:**
