@@ -2,7 +2,7 @@
 # 44-566 machine-learning project
 Repo for all project documents
 
-**Overview**  
+### 1. Overview
 This project aims to explore the relationship between house prices in New York City and their distance from Central Park. Initially, our goal was to predict house prices using linear regression based solely on the distance from Central Park. However, as the project evolved, we incorporated additional features such as the number of bedrooms, bathrooms, and square footage to enhance our model's accuracy. Through our analysis, we discovered the importance of considering multiple factors for accurate house price prediction.
 
 ### 2. RAW_DATA
@@ -11,12 +11,12 @@ This project aims to explore the relationship between house prices in New York C
 The dataset used in this project was obtained from [https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market]. The dataset contains information on house prices, bedrooms, bathrooms, square footage, and location coordinates. The raw data file can be found in this repository.
 
 **Data Retrieval Notebook**  
-For data acquisition and initial exploration, we used the following notebook: [Data Retrieval Notebook](initial_exploration.ipynb).
+For data acquisition and initial exploration, we used the following notebook: [Initial Exploration Notebook](initial_exploration.ipynb).
 
 ### 3. DATA
 
 **Exploratory Data Analysis**  
-Our explorations into the data involved cleaning, preprocessing, and visualizing the dataset. The transformations applied to the data are documented in the following notebook: [Data Exploration Notebook](linear_regression.ipynb).
+Our explorations into the data involved cleaning, preprocessing, and visualizing the dataset. The transformations applied to the data are documented in the following notebook: [Linear Regression Notebook](linear_regression.ipynb).
 
 ### 4. ANALYSIS (Technical results)
 
@@ -24,7 +24,7 @@ Our explorations into the data involved cleaning, preprocessing, and visualizing
 We experimented with three classification models: DecisionTreeClassifier, SVC, and RandomForestClassifier. RandomForestClassifier emerged as the best-performing model with an accuracy of 0.63.
 
 **Model Tuning and Evaluation**  
-Details on model tuning and evaluation, including metrics from cross-validation, are documented in the following notebook: [Model Analysis Notebook](classification.ipynb).
+Details on model tuning and evaluation, including metrics from cross-validation, are documented in the following notebook: [Classification Notebook](classification.ipynb).
 
 **Challenges and Limitations**  
 One challenge faced was the poor performance of linear regression, which led us to explore more complex models. A limitation of our study is the focus on a single major landmark (Central Park) for distance calculations.
@@ -38,7 +38,13 @@ Future improvements could include incorporating more features, considering multi
 Our main finding was that proximity to Central Park significantly influences house prices, with closer houses generally priced higher. Additionally, considering features like bedrooms, bathrooms, and square footage improved our model's predictive power.
 
 **Narrative Conclusion**  
-Through this project, we learned that accurate house price prediction requires a holistic approach, considering both location and property attributes. The journey from initial linear regression attempts to the final RandomForestClassifier model highlighted the importance of iterative experimentation and feature engineering in data science projects.
+In this project, I tried to figure out what makes house prices in New York City go up or down. At first, I thought just being close to Central Park might be the key, so I tried using a simple method called linear regression to predict prices. But that didn't work well.
+
+So, I decided to look at other things too, like how many bedrooms and bathrooms a house has, and its size. I used this information to train different computer models to predict prices. Out of all the models I tried, one called RandomForestClassifier worked the best.
+
+However, I noticed that our model had difficulty predicting prices for houses with a middle distance from Central Park. This suggests that there might be other features or hotspot areas in New York City that could influence prices, beyond just the distance or the features we considered. Given that New York City is a bustling metropolis with multiple happening areas, these factors could play a significant role in house prices.
+
+In the end, I learned that predicting house prices is complicated. It's not just about location or the features of the house; there might be other factors at play as well. Trying different approaches and being open to exploring additional features can help in getting better and more accurate results.
 
 ---
 
